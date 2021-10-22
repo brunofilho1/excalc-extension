@@ -1,80 +1,63 @@
-html {
-    border: 2px solid white;
-    border-radius: 5rem;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    margin: 0 auto;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    border: 2px solid white;
-    border-radius: 5rem;
-}
-/*
- .internCalcBox {
-    width: 330px;
-    height: 500px;
-    background-color: #fff;
-    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #091921;
 }
 
-.calcScreen {
-    width: 100%;
-    height: 15%;
-    background-color: aquamarine;
-    border: 4px solid #fff;
-    border-radius: 15px;
+.num {
+    cursor: pointer;
 }
 
-.calcNumberPad {
+.calculator {
+    position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0;
 }
 
-.calcNumberPad div {
-    background-color: beige;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    border: 4px solid #fff;
-    border-radius: 15px;
-}
- */
-
- .calcScreen {
-    background-color: aquamarine;
-    height: 70px;
+.calculator .value {
+    grid-column: span 4;
+    height: 100px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
 }
 
-.calcBox {
-    height: 500px;
-    background-color: rgb(231, 231, 231);
-    width: 330px;
-    padding: 1em;
-}
-
-.calcNumberPad {
+.calculator span {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 250px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    border: 1px solid rgba(0,0,0,.1);
 }
 
-.calcNumberPad > .numberKey {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: beige;
-    border: 3px solid rgb(238, 238, 214);
+.calculator span:active {
+    background: #0c202b;
+    color: #111;
 }
 
-.calcNumberPad > .mathKey {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(223, 106, 102);
-    border: 3px solid rgb(238, 238, 214);
+.calculator span.clear {
+    grid-column: span 2;
+    width: 120px;
+    background: #ff3077;
+}
+
+.calculator span.plus {
+    grid-row: span 2;
+    height: 120px;
+}
+
+.calculator span.equal {
+    background: #03b1ff;
 }

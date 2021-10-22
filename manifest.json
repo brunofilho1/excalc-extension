@@ -8,5 +8,7 @@
    	 "default_title": "exCalc",
    	 "default_popup": "index.html",
    	 "default_icon": "icon.png"
-    }
+    },
+
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
