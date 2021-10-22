@@ -1,0 +1,80 @@
+html {
+    border: 2px solid white;
+    border-radius: 5rem;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 5rem;
+}
+/*
+ .internCalcBox {
+    width: 330px;
+    height: 500px;
+    background-color: #fff;
+    padding: 1em;
+}
+
+.calcScreen {
+    width: 100%;
+    height: 15%;
+    background-color: aquamarine;
+    border: 4px solid #fff;
+    border-radius: 15px;
+}
+
+.calcNumberPad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+}
+
+.calcNumberPad div {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border: 4px solid #fff;
+    border-radius: 15px;
+}
+ */
+
+ .calcScreen {
+    background-color: aquamarine;
+    height: 70px;
+}
+
+.calcBox {
+    height: 500px;
+    background-color: rgb(231, 231, 231);
+    width: 330px;
+    padding: 1em;
+}
+
+.calcNumberPad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 250px;
+}
+
+.calcNumberPad > .numberKey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border: 3px solid rgb(238, 238, 214);
+}
+
+.calcNumberPad > .mathKey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 106, 102);
+    border: 3px solid rgb(238, 238, 214);
+}
