@@ -40,7 +40,8 @@ body {
     color: #fff;
     background: #0c2835;
     place-items: center;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 2px solid rgba(0,0,0,.1);
+    font-size: 20px;
 }
 
 .calculator span:active {
@@ -65,4 +66,15 @@ body {
 
 .calculator span.equal {
     background: #03b1ff;
+}
+
+.calculator span.equal, span.plus, span.keySub, span.keyMult, span.keyDiv, span.keyDot {
+    font-size: 30px;
+}
+
+.calculator span.keyDot p {
+    margin-top: -15px;
+}
+.calculator span.keyMult p {
+    margin-top: 15px;
 }
