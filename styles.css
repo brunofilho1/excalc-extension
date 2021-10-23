@@ -20,6 +20,7 @@ body {
 .calculator {
     position: relative;
     display: grid;
+    background-color: #0c2835;
 }
 
 .calculator .value {
