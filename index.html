@@ -6,32 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>exCalc</title>
-    <script src="./scripts.js"></script>
 </head>
 <body>
-    
-    <div class="calcDiv" name="calcContainer">
+<!--     <h1>Hello, world!</h1>
+   <p>This is a hypertext document on the World Wide Web.</p>
+   <script src="/script.js" async></script>
+ -->
         <form class="calculator" name="calc">
-            <input placeholder="" type="text" class="value" name="txt" readonly="">
-            <span class="num clear" onclick="document.calc.txt.value = ''">c</span>
-            <span class="num" onclick="teste()">/</span>
-            <span class="num" onclick="document.calc.txt.value += '*'">*</span>
-            <span class="num" onclick="document.calc.txt.value += '7'">7</span>
-            <span class="num" onclick="document.calc.txt.value += '8'">8</span>
-            <span class="num" onclick="document.calc.txt.value += '9'">9</span>
-            <span class="num" onclick="document.calc.txt.value += '-'">-</span>
-            <span class="num" onclick="document.calc.txt.value += '4'">4</span>
-            <span class="num" onclick="document.calc.txt.value += '5'">5</span>
-            <span class="num" onclick="document.calc.txt.value += '6'">6</span>
-            <span class="num plus" onclick="document.calc.txt.value += '+'">+</span>
-            <span class="num" onclick="document.calc.txt.value += '3'">3</span>
-            <span class="num" onclick="document.calc.txt.value += '2'">2</span>
-            <span class="num" onclick="document.calc.txt.value += '1'">1</span>
-            <span class="num" onclick="document.calc.txt.value += '0'">0</span>
-            <span class="num" onclick="document.calc.txt.value += '00'">00</span>
-            <span class="num" onclick="document.calc.txt.value += '.'">.</span>
-            <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
+            <input placeholder="0" type="text" class="value" name="txt">
+
+            <span class="num clear">c</span>
+            <span class="num keyDiv">/</span>
+            <span class="num keyMult">*</span>
+            <span class="num key7">7</span>
+            <span class="num key8">8</span>
+            <span class="num key9">9</span>
+            <span class="num keySub">-</span>
+            <span class="num key4">4</span>
+            <span class="num key5">5</span>
+            <span class="num key6">6</span>
+            <span class="num plus">+</span>
+            <span class="num key3">3</span>
+            <span class="num key2">2</span>
+            <span class="num key1">1</span>
+            <span class="num key0">0</span>
+            <span class="num key00">00</span>
+            <span class="num keyDot">.</span>
+            <span class="num equal">=</span>
         </form>
-    </div>
+
+
+    <script src="./scripts.js"></script>
 </body>
+
 </html>

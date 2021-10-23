@@ -25,10 +25,10 @@ body {
 .calculator .value {
     grid-column: span 4;
     height: 100px;
-    text-align: center;
+    text-align: right;
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 15px;
     font-size: 18px;
 }
 
@@ -45,6 +45,10 @@ body {
 .calculator span:active {
     background: #0c202b;
     color: #111;
+}
+
+.calculator span:hover {
+    opacity: .7;
 }
 
 .calculator span.clear {
