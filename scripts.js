@@ -1,10 +1,3 @@
-/* const h1 = document.querySelector('h1');
-
-const p = document.createElement('p');
-
-const teste = 'Texto massa'
-p.textContent = teste;
-document.body.appendChild(p); */
 
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.key1').addEventListener('click', function() {
