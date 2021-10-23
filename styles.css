@@ -1,3 +1,12 @@
+:root {
+    --background-color: #091921;
+    --calculator-color: #0c2835;
+    --button-color: #19475c;
+    --math-button-color: #234f64;
+    --light-blue: #03b1ff;
+    --light-red: #ff3077;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +19,29 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #091921;
+    background: var(--background-color);
+}
+
+.exCalcLogo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    opacity: 1;
+    background-color: var(--button-color);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}.exCalcLogo a:hover {
+    opacity: .8;
+    transition: .2s;
+}.exCalcLogo i {
+    margin-right: 3px;
+}.exCalcLogo a {
+    opacity: .3;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
 }
 
 .num {
@@ -20,17 +51,29 @@ body {
 .calculator {
     position: relative;
     display: grid;
-    background-color: #0c2835;
+    background-color: var(--calculator-color);
+    padding: 15px;
+    border-radius: 5px;
 }
 
-.calculator .value {
+.calculator .valueDiv {
     grid-column: span 4;
-    height: 100px;
+    height: 120px;
     text-align: right;
     border: none;
     outline: none;
-    padding: 15px;
+    padding: 0px;
     font-size: 18px;
+}
+
+.value {
+    height: 60px;
+    width: 240px;
+    margin-top: 15px;
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
 .calculator span {
@@ -38,7 +81,7 @@ body {
     width: 60px;
     height: 60px;
     color: #fff;
-    background: #0c2835;
+    background: var(--button-color);
     place-items: center;
     border: 2px solid rgba(0,0,0,.1);
     font-size: 20px;
@@ -56,7 +99,9 @@ body {
 .calculator span.clear {
     grid-column: span 2;
     width: 120px;
-    background: #ff3077;
+    background: var(--light-red);
+    border-top-left-radius: 5px;
+    font-size: 25px;
 }
 
 .calculator span.plus {
@@ -65,11 +110,24 @@ body {
 }
 
 .calculator span.equal {
-    background: #03b1ff;
+    background: var(--light-blue);
+    border-bottom-right-radius: 5px;
+}
+
+.calculator span.key0 {
+    border-bottom-left-radius: 5px;
+}
+
+.calculator span.keyMult {
+    border-top-right-radius: 5px;
 }
 
 .calculator span.equal, span.plus, span.keySub, span.keyMult, span.keyDiv, span.keyDot {
     font-size: 30px;
+}
+
+span.keyDiv, span.keyMult, span.keySub, span.plus {
+    background-color: var(--math-button-color);
 }
 
 .calculator span.keyDot p {
