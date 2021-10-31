@@ -18,4 +18,16 @@ Você pode encontrá-la pesquisando direto pela Chrome Web Store ou [clicando aq
 
 <img src="https://i.ibb.co/wKb40qX/excalc.png"/>
 
+## 🧪 Tecnologias usadas
+
+Esse projeto foi desenvolvido apenas com essas tecnologias:
+
+- [HTML](https://html.com/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://javascript.com/)
+
+## 📝 Licença MIT
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 ---
