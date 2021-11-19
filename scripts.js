@@ -2,8 +2,14 @@
 document.body.addEventListener('keypress', function (event) {
     const key = event.key;
     const code = event.keyCode;
-    document.calc.txt.value += key
-    console.log(key);
+    if(key != 'Enter') {
+        document.calc.txt.value += key
+    }
+    if(key == 'Enter') {
+
+        document.calc.txt.value = eval(calc.txt.value)
+
+    }
 });
 
 document.addEventListener('DOMContentLoaded', function() {

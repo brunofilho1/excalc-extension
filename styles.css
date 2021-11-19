@@ -74,7 +74,7 @@ body {
     font-size: 25px;
     border-radius: 5px;
 
-    
+    -moz-appearance: textfield;
 }
 
 .calculator span {
