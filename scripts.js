@@ -2,6 +2,7 @@
 document.body.addEventListener('keypress', function (event) {
     const key = event.key;
     const code = event.keyCode;
+    document.calc.txt.value += key
     console.log(key);
 });
 
