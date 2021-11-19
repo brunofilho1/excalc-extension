@@ -6,9 +6,11 @@ document.body.addEventListener('keypress', function (event) {
         document.calc.txt.value += key
     }
     if(key == 'Enter') {
-
-        document.calc.txt.value = eval(calc.txt.value)
-
+        try {
+            document.calc.txt.value = eval(calc.txt.value)
+        } catch (error) {
+            document.calc.txt.value = 'Error'
+        }
     }
 });
 
