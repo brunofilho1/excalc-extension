@@ -1,13 +1,20 @@
 
-document.body.addEventListener('keypress', function (event) {
+document.body.addEventListener('keydown', function (event) {
     const key = event.key;
     const code = event.keyCode;
-    if(key != 'Enter') {
+    if(key != 'Enter' | 'Backspace') {
         document.calc.txt.value += key
     }
     if(key == 'Enter') {
         try {
             document.calc.txt.value = eval(calc.txt.value)
+        } catch (error) {
+            document.calc.txt.value = 'Error'
+        }
+    }
+    if(key == 'Backspace') {
+        try {
+            document.calc.txt.value = ''
         } catch (error) {
             document.calc.txt.value = 'Error'
         }

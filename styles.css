@@ -75,6 +75,9 @@ body {
     border-radius: 5px;
 
     -moz-appearance: textfield;
+
+    outline: none;
+    cursor: pointer;
 }
 
 .calculator span {
