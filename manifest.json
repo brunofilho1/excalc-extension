@@ -9,17 +9,6 @@
    	 "default_popup": "index.html",
    	 "default_icon": "icon.png"
     },
-    "permissions": [
-        "tabs",
-        "bookmarks"
-      ],
-      "optional_permissions": [
-        "unlimitedStorage"
-      ],
-      "host_permissions": [
-        "http://www.blogger.com/",
-        "*://*/*"
-      ],
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 
 }

@@ -1,4 +1,10 @@
 
+document.body.addEventListener('keypress', function (event) {
+    const key = event.key;
+    const code = event.keyCode;
+    console.log(key);
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.key1').addEventListener('click', function() {
         
