@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "exCalc Extension",
     "description": "Calculadora rápida e à 1 clique de distância.",
     "author": "Bruno Filho",
