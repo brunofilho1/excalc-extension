@@ -17,8 +17,12 @@ document.body.addEventListener('keydown', function (event) {
         | key == '+'
         | key == '-'
         | key == '*'
-        | key == '/') {
+        | key == '/'
+        | key == '.') {
             document.calc.txt.value += key
+    }
+    if(key == ',') {
+        document.calc.txt.value += '.'
     }
     if(key == 'Enter') {
         try {
