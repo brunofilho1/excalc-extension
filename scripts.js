@@ -29,7 +29,7 @@ document.body.addEventListener('keydown', function (event) {
     }
     if(key == 'Backspace') {
         try {
-            document.calc.txt.value = ''
+            document.calc.txt.value = document.calc.txt.value.slice(0, -1)
         } catch (error) {
             document.calc.txt.value = 'Error'
         }
