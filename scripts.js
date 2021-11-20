@@ -130,7 +130,11 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     document.querySelector('.equal').addEventListener('click', function() {
         
-        document.calc.txt.value = eval(calc.txt.value)
+        try {
+            document.calc.txt.value = eval(calc.txt.value)
+        } catch (error) {
+            document.calc.txt.value = 'Error'
+        }
 
     })
 })
