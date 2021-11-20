@@ -1,4 +1,4 @@
-# 🖩 excalc-extension v1.0.1
+# 🖩 ExCalc Extension
 
 Calculadora simples, rápida e na sua barra de menu. Extensão bem simples mas com o intuito de ser atualizada com o decorrer do tempo.
 
