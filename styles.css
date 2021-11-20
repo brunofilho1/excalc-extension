@@ -101,10 +101,16 @@ body {
 }
 
 .calculator span.clear {
-    grid-column: span 2;
-    width: 120px;
+    grid-column: span 1;
+    width: 60px;
     background: var(--light-red);
-    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 25px;
+}
+.calculator span.backspace {
+    grid-column: span 1;
+    width: 60px;
+    background: var(--light-red);
     font-size: 25px;
 }
 
@@ -122,8 +128,8 @@ body {
     border-bottom-left-radius: 5px;
 }
 
-.calculator span.keyMult {
-    border-top-right-radius: 5px;
+.calculator span.keyDiv {
+    border-top-left-radius: 5px;
 }
 
 .calculator span.equal, span.plus, span.keySub, span.keyMult, span.keyDiv, span.keyDot {
