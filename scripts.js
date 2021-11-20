@@ -31,6 +31,12 @@ document.body.addEventListener('keydown', function (event) {
             document.calc.txt.value = 'Error'
         }
     }
+
+    if(document.calc.txt.value == 'Error') {
+        if(key == 'Backspace')
+        document.calc.txt.value = ''
+    }
+    
     if(key == 'Backspace') {
         try {
             document.calc.txt.value = document.calc.txt.value.slice(0, -1)
