@@ -123,6 +123,11 @@ document.addEventListener('DOMContentLoaded', function() {
         document.calc.txt.value = ''
 
     })
+    document.querySelector('.backspace').addEventListener('click', function() {
+        
+        document.calc.txt.value = document.calc.txt.value.slice(0, -1)
+
+    })
     document.querySelector('.equal').addEventListener('click', function() {
         
         document.calc.txt.value = eval(calc.txt.value)

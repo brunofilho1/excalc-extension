@@ -104,14 +104,14 @@ body {
     grid-column: span 1;
     width: 60px;
     background: var(--light-red);
-    border-top-right-radius: 5px;
     font-size: 25px;
 }
 .calculator span.backspace {
     grid-column: span 1;
     width: 60px;
+    border-top-right-radius: 5px;
     background: var(--light-red);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .calculator span.plus {
