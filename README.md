@@ -13,7 +13,7 @@ Você pode encontrá-la pesquisando direto pela Chrome Web Store ou [clicando aq
 
 ## 💻 Visualização da extensão
 
-<img src="https://i.ibb.co/wKb40qX/excalc.png"/>
+<img src="https://i.ibb.co/MnG7X2H/excalc1.png"/>
 
 ## 🧪 Tecnologias usadas
 
