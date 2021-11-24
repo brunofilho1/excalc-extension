@@ -8,9 +8,6 @@ Você pode encontrá-la pesquisando direto pela Chrome Web Store ou [clicando aq
 
 <img src="https://i.ibb.co/nCZf919/print.png" />
 
-## 🧾 Próximas atualizações previstas: 
-  * botão Backspace, para excluir apenas o último dígito do número exibido.
-  * opção para uma versão científica da mesma calculadora.
  
  E sugestões são sempre bem vindas, sinta-se a vontade para fazer pull requests :)
 
